@@ -1,11 +1,11 @@
 :root {
-  --bg: #0E1420;
-  --bg-raised: #161E2E;
-  --ink: #E9E7DF;
-  --ink-dim: #9AA3B5;
-  --line: #29334A;
-  --amber: #E8A33D;
-  --amber-dim: #a97a34;
+  --bg: #0B1220;
+  --bg-raised: #141F35;
+  --ink: #E8EDF6;
+  --ink-dim: #8FA0BD;
+  --line: #243252;
+  --amber: #5B9DFF;
+  --amber-dim: #3568B8;
   --mono: 'JetBrains Mono', monospace;
   --serif: 'Fraunces', serif;
   --sans: 'Inter', sans-serif;
@@ -35,7 +35,7 @@ a { color: inherit; }
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem clamp(1.5rem, 5vw, 4rem);
-  background: rgba(14, 20, 32, 0.85);
+  background: rgba(11, 18, 32, 0.85);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--line);
 }
@@ -100,7 +100,7 @@ a { color: inherit; }
 .hero-title {
   margin: 0 0 1.75rem;
   font-family: var(--serif);
-  font-size: clamp(1.9rem, 4vw, 2.9rem);
+  font-size: clamp(2.4rem, 5.5vw, 4rem);
   font-weight: 500;
   color: var(--ink);
   letter-spacing: -0.01em;
@@ -126,11 +126,11 @@ a { color: inherit; }
 
 .btn-primary {
   background: var(--amber);
-  color: #0E1420;
+  color: #0B1220;
   font-weight: 600;
 }
 
-.btn-primary:hover { background: #f0b45c; }
+.btn-primary:hover { background: #7fb0ff; }
 
 .btn-ghost {
   border: 1px solid var(--line);
