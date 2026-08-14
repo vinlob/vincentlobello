@@ -99,28 +99,8 @@ a { color: inherit; }
 
 .hero-title {
   margin: 0 0 1.75rem;
-  font-weight: 500;
-}
-
-.hero-title .line { display: block; }
-
-.line-code {
-  font-family: var(--mono);
-  font-size: clamp(1.4rem, 3.4vw, 2rem);
-  color: var(--ink-dim);
-  font-weight: 500;
-}
-
-.line-arrow {
-  font-family: var(--mono);
-  color: var(--amber-dim);
-  font-size: 1.4rem;
-  margin: 0.25rem 0;
-}
-
-.line-prose {
   font-family: var(--serif);
-  font-size: clamp(2rem, 5vw, 3.4rem);
+  font-size: clamp(1.9rem, 4vw, 2.9rem);
   font-weight: 500;
   color: var(--ink);
   letter-spacing: -0.01em;
