@@ -1,9 +1,9 @@
 :root {
-  --bg: #0B1220;
-  --bg-raised: #141F35;
-  --ink: #E8EDF6;
-  --ink-dim: #8FA0BD;
-  --line: #243252;
+  --bg: #101114;
+  --bg-raised: #1A1B1F;
+  --ink: #ECEDEF;
+  --ink-dim: #9A9DA6;
+  --line: #2B2D33;
   --amber: #5B9DFF;
   --amber-dim: #3568B8;
   --mono: 'JetBrains Mono', monospace;
@@ -35,7 +35,7 @@ a { color: inherit; }
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem clamp(1.5rem, 5vw, 4rem);
-  background: rgba(11, 18, 32, 0.85);
+  background: rgba(16, 17, 20, 0.85);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--line);
 }
@@ -126,7 +126,7 @@ a { color: inherit; }
 
 .btn-primary {
   background: var(--amber);
-  color: #0B1220;
+  color: #101114;
   font-weight: 600;
 }
 
