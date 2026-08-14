@@ -152,7 +152,7 @@ a { color: inherit; }
 
 .section-label {
   font-family: var(--mono);
-  color: var(--amber);
+  color: var(--ink-dim);
   font-size: 0.85rem;
   letter-spacing: 0.08em;
   margin: 0 0 2.5rem;
@@ -216,7 +216,7 @@ a { color: inherit; }
 .timeline-date {
   font-family: var(--mono);
   font-size: 0.8rem;
-  color: var(--amber);
+  color: var(--ink-dim);
   white-space: nowrap;
 }
 
@@ -305,12 +305,41 @@ a { color: inherit; }
 
 .skill-group h4 {
   font-family: var(--mono);
-  color: var(--amber);
+  color: var(--ink-dim);
   font-size: 0.9rem;
   margin: 0 0 0.75rem;
 }
 
 .skill-group p {
+  color: var(--ink-dim);
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+/* Bridge */
+.bridge-title {
+  font-family: var(--serif);
+  font-size: clamp(1.6rem, 3.2vw, 2.2rem);
+  font-weight: 500;
+  color: var(--ink);
+  max-width: 26ch;
+  margin: 0 0 3rem;
+}
+
+.bridge-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.bridge-item h4 {
+  font-family: var(--mono);
+  color: var(--amber);
+  font-size: 0.9rem;
+  margin: 0 0 0.75rem;
+}
+
+.bridge-item p {
   color: var(--ink-dim);
   margin: 0;
   font-size: 0.95rem;
@@ -364,7 +393,7 @@ a { color: inherit; }
   }
   .hero-sub { max-width: 100%; }
   .hero-cta { justify-content: center; }
-  .about-grid, .projects-grid, .skills-grid {
+  .about-grid, .projects-grid, .skills-grid, .bridge-grid {
     grid-template-columns: 1fr;
   }
   .about-facts {
